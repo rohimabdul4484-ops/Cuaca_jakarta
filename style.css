@@ -1,1 +1,121 @@
+/* ====== GLOBAL ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
 
+/* ====== HEADING ====== */
+h2 {
+    text-align: center;
+    color: #0f4ca3;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #0f4ca3;
+    width: 60%;
+    margin: 15px auto 25px auto;
+}
+
+h4 {
+    color: #0f4ca3;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+/* ====== PARAGRAPH ====== */
+p {
+    background: #ffffff;
+    padding: 12px;
+    border-left: 5px solid #0f4ca3;
+    width: fit-content;
+    max-width: 450px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+/* ====== MAP IFRAME ====== */
+iframe {
+    width: 100%;
+    max-width: 850px;
+    height: 420px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+    border: 2px solid #0f4ca3 !important;
+}
+
+/* ====== TABLE STYLE ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+table th {
+    background: #0f4ca3;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:nth-child(even) {
+    background: #e8f0ff;
+}
+
+table tr:hover {
+    background: #d6e4ff;
+    transition: 0.2s;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    margin-top: 30px;
+    background: #0f4ca3;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 600px) {
+    iframe {
+        height: 260px;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    p {
+        max-width: 100%;
+    }
+}
